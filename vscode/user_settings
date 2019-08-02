@@ -1,0 +1,51 @@
+{
+    // ========
+    // ~VSCODE~
+    // ========
+    // workbench
+    "workbench.startupEditor": "welcomePage",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": false,
+    "workbench.iconTheme": "ayu",
+    // editor
+    "editor.formatOnSave": true,
+    "editor.wordBasedSuggestions": false,
+    "window.zoomLevel": 0,
+    // terminal
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "C:\\Miniconda3\\Scripts\\activate.bat C:\\Miniconda3"
+    ],
+    // git
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    // ========
+    // ~PYTHON~
+    // ========
+    // python setting
+    "python.pythonPath": "C:\\Miniconda3\\python.exe",
+    "python.venvPath": "C:\\Miniconda3\\envs",
+    // "python.dataScience.sendSelectionToInteractiveWindow": false,
+    // formatting
+    "python.formatting.provider": "autopep8",
+    "python.linting.flake8Enabled": true,
+    // conda
+    "python.condaPath": "C:\\Miniconda3\\Scripts\\conda.exe",
+    // ====================
+    // ~EXTENSION SETTINGS~
+    // ====================
+    // markdown
+    "markdown.extension.toc.levels": "1..2",
+    "markdown.extension.toc.githubCompatibility": true,
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "markdown.extension.tableFormatter.enabled": false,
+    // autodocstring
+    "autoDocstring.docstringFormat": "numpy",
+    // restructured
+    "restructuredtext.linter.extraArgs": [
+        "--ignore D002",
+        "--ignore D004"
+    ],
+}
