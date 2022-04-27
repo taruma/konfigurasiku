@@ -66,7 +66,7 @@ def main():
     CURRENT_PATH = Path(".")
     print(f"CURRENT WORKING DIRECTORY: {CURRENT_PATH.absolute()}")
 
-    PYTHON_VER = ["3.7"]
+    PYTHON_VER = ["3.7", "3.8"]
 
     TEMPLATE_PATTERN = "*-template*"
     TEMPLATE_SPLIT = "-template"
