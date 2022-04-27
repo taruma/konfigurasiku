@@ -1,0 +1,59 @@
+# last Update: 2022-04-27
+
+name: devhk37
+
+channels:
+  - conda-forge
+  - defaults
+  
+dependencies:
+  # python version
+  - python=3.7
+  
+  # hidrokit.core
+  - numpy 
+  - pandas
+  - matplotlib
+  
+  # hidrokit.contrib dependencies
+  - scipy # anfrek, ujidist
+  - openpyxl # excel reader
+  - pytables # HDF5 reader
+  
+  # hidrokit test/development
+  - pytest 
+  - pytest-cov
+
+  # formatting 
+  - pylint
+  - black
+  
+  # google colab environment
+  - jupyter
+  - jupyterlab
+  
+  # publishing
+  - twine 
+  
+  # additional packages
+  - xlrd # excel for pandas
+  
+  # experiment project (next dependencies)
+  - seaborn
+  - xlwings
+  - plotly::plotly # reF: https://stackoverflow.com/a/47887331/4886384
+  
+  # latex
+  - pandoc
+  
+  # utilities
+  - console_shortcut
+  
+  # pip
+  - pip
+  
+  - pip:
+    - hydroerr==1.24
+    - jupyter-http-over-ws==0.0.8
+
+prefix: C:\Miniconda3\envs\devhk37

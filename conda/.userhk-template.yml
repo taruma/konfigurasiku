@@ -1,0 +1,45 @@
+# last update: 2022-04-27
+
+name: {name_environment}
+
+channels:
+  - conda-forge
+  - defaults
+  
+dependencies:
+  # python version
+  - python={python_version}
+  
+  # hidrokit.core
+  - numpy 
+  - pandas
+  - matplotlib
+  
+  # hidrokit.contrib dependencies
+  - scipy # anfrek, ujidist
+  - openpyxl # excel reader
+  - pytables # hdf5 reader
+ 
+  # additional package
+  - plotly::plotly
+  - seaborn
+  
+  # jupyter
+  - jupyter
+  - jupyterlab
+  
+  # utilities
+  - console_shortcut
+  
+  # lambda-project
+  - xlwings
+  
+  # pip
+  - pip
+  
+  - pip:
+    - hydroerr==1.24
+    - jupyter-http-over-ws==0.0.8
+    - hidrokit
+
+prefix: {path_environment}
