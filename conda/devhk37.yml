@@ -27,6 +27,7 @@ dependencies:
   # formatting 
   - pylint
   - black
+  - flake8
   
   # google colab environment
   - jupyter
